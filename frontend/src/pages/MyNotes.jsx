@@ -54,7 +54,7 @@ function MyNotes() {
         <div class="flex items-center justify-between mb-4">
         <div class="container mx-auto mt-10 px-4 sm:px-0">
         <div class="max-w 3-xl mx-auto bg-white p-6 rounded-lg shadow-md">
-        <h1 class="text-2xl font-semibold mb-8 text-center">Public Notes</h1>
+        <h1 class="text-2xl font-semibold mb-8 text-center">Contemplative - Self</h1>
             {sortedDates.map(([date, notesForDate]) => {
                 // Sort notes for each date in reverse order
                 const sortedNotesForDate = notesForDate.sort((noteA, noteB) => noteB.timestamp - noteA.timestamp);

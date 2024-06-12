@@ -12,7 +12,7 @@ function Note({ note }) {
     return (
         <>
         <section>
-        <div className="my-4 transition-transform transform hover:scale-105">
+        <div className="my-4 transition-transform transform hover:scale-105 hover:bg-violet-100 ">
         <div>
             <p className="text-center border-b border-gray-400 pb-2">{note.content}</p>
             <p className="mb-1 note-date">{time}  {note.title}</p>
@@ -24,3 +24,4 @@ function Note({ note }) {
 }
 
 export default Note
+
