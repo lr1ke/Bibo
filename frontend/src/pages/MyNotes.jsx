@@ -60,7 +60,7 @@ function MyNotes() {
                 const sortedNotesForDate = notesForDate.sort((noteA, noteB) => noteB.timestamp - noteA.timestamp);
                 return (
                     <div key={date}>
-                        <h2 class="text-center my-12">{date}</h2>
+                        <h2 class=" bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-200 text-center my-12">{date}</h2>
 
                         {sortedNotesForDate.map((note) => (
                             <Note  note={note} key={note.id} />
